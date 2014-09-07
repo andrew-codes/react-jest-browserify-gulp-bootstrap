@@ -30,7 +30,7 @@ var config = {
     name: 'app.js',
     dest: './public/js'
   }
-}
+};
 
 gulp.task('dev', ['build'], function() {
   return connect.server({
