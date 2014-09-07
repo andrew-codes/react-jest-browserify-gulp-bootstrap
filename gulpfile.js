@@ -11,8 +11,6 @@ var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
 var shell = require('gulp-shell');
 var react = require('gulp-react');
-var gulpFilter = require('gulp-filter');
-var filterForEntryScript = gulpFilter('**/index.js');
 
 var config = {
   dest: './public',

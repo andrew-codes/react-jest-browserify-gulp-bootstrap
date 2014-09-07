@@ -31,8 +31,7 @@
     "browserify-shim": "~3.7.0",
     "react": "~0.11.1",
     "react-tools": "~0.11.1",
-    "gulp-react": "~1.0.0",
-    "gulp-filter": "~1.0.1"
+    "gulp-react": "~1.0.0"
   },
   "jest": {
     "unmockedModulePathPatterns": [
