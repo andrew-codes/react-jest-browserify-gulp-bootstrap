@@ -1,4 +1,5 @@
-var example = require('./example');
+/** @jsx React.DOM */
+var CheckboxWithLabel = require('./views/CheckboxWithLabel');
 var react = require('react');
-var el = document.body;
-react.renderComponent(example(), el);
+var el = document.getElementsByTagName('body')[0];
+react.renderComponent(<CheckboxWithLabel labelOn="On" labelOff="Off" />, el);
