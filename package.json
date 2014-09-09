@@ -4,7 +4,9 @@
   "description": "JestJS + Browserify + React + gulp",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/jest"
+    "test": "./node_modules/.bin/jest",
+    "dev": "./node_modules/.bin/gulp dev",
+    "build": "./node_modules/.bin/gulp build"
   },
   "repository": {
     "type": "git",
